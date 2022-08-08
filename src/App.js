@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
-import Nav from './Nav';
-import News from './NewsAPi';
+
+import Quiz from './Quiz';
 import Main from './Main';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
 <Main />
-  <News />
+  <Quiz />
   </div>
   )
 
